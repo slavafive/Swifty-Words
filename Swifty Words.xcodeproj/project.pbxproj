@@ -15,6 +15,7 @@
 		C8375F0225AC97AC0035F28F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8375F0025AC97AC0035F28F /* LaunchScreen.storyboard */; };
 		C8375F0C25ACB0400035F28F /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = C8375F0B25ACB0400035F28F /* level1.txt */; };
 		C8375F0F25ACB0550035F28F /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = C8375F0E25ACB0550035F28F /* level2.txt */; };
+		C8375F1325ADC7940035F28F /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = C8375F1225ADC7930035F28F /* game.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C8375F0325AC97AC0035F28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8375F0B25ACB0400035F28F /* level1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 		C8375F0E25ACB0550035F28F /* level2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
+		C8375F1225ADC7930035F28F /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		C8375EE925AC97AA0035F28F = {
 			isa = PBXGroup;
 			children = (
+				C8375F1125ADC7820035F28F /* Presentation */,
 				C8375EF425AC97AA0035F28F /* Swifty Words */,
 				C8375EF325AC97AA0035F28F /* Products */,
 			);
@@ -71,6 +74,14 @@
 				C8375F0E25ACB0550035F28F /* level2.txt */,
 			);
 			path = "Swifty Words";
+			sourceTree = "<group>";
+		};
+		C8375F1125ADC7820035F28F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C8375F1225ADC7930035F28F /* game.png */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 				C8375F0C25ACB0400035F28F /* level1.txt in Resources */,
 				C8375EFF25AC97AC0035F28F /* Assets.xcassets in Resources */,
 				C8375EFD25AC97AA0035F28F /* Main.storyboard in Resources */,
+				C8375F1325ADC7940035F28F /* game.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
